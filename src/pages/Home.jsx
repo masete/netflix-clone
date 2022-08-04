@@ -1,6 +1,7 @@
-import React from 'react'
-import Main from '../components/main'
+import React from 'react';
+import Main from '../components/main';
 import Row from '../components/Row';
+import requests from '../Request';
 
 const Home = () => {
   return (
@@ -15,5 +16,4 @@ const Home = () => {
   )
 }
 
-export default Home
-Footer
+export default Home;
