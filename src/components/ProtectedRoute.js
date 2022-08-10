@@ -6,9 +6,9 @@ const ProtectedRoute = () => {
     const {user} = UserAuth();
 
     if(!user){
-        Navigate('/')
+        return <Navigate to='/'/>;
     } else{
-        return Children
+        return Children;
     }
 }
 
